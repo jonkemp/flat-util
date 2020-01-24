@@ -1,44 +1,44 @@
 {
-  "name": "flat-util",
-  "version": "1.0.0",
-  "description": "Flatten a nested array.",
-  "main": "index.js",
-  "scripts": {
-		"build": "node build",
-		"lint": "eslint . --max-warnings 0",
-		"lint:fix": "eslint . --fix --max-warnings 0",
-		"test": "mocha"
-  },
-  "files": [
-		"index.js",
-		"umd/"
-  ],
-  "repository": {
-		"type": "git",
-		"url": "git+https://github.com/jonkemp/flat-util.git"
-  },
-  "keywords": [
-		"array",
-		"flat",
-		"flatten",
-		"nested",
-		"utility",
-		"util"
-  ],
-  "author": {
-		"name": "Jonathan Kemp",
-		"email": "kempdogg@gmail.com",
-		"url": "http://jonkemp.com/"
-  },
-  "license": "MIT",
-  "bugs": {
-		"url": "https://github.com/jonkemp/flat-util/issues"
-  },
-  "homepage": "https://github.com/jonkemp/flat-util#readme",
-  "devDependencies": {
-		"babel-eslint": "^10.0.3",
-		"eslint": "^6.8.0",
-		"mocha": "^7.0.0",
-		"umd-util": "^1.0.0"
-  }
+		"name": "flat-util",
+		"version": "1.0.1",
+		"description": "Flatten a nested array.",
+		"main": "index.js",
+		"scripts": {
+				"build": "node build",
+				"lint": "eslint . --max-warnings 0",
+				"lint:fix": "eslint . --fix --max-warnings 0",
+				"test": "mocha"
+		},
+		"files": [
+				"index.js",
+				"umd/"
+		],
+		"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonkemp/flat-util.git"
+		},
+		"keywords": [
+				"array",
+				"flat",
+				"flatten",
+				"nested",
+				"utility",
+				"util"
+		],
+		"author": {
+				"name": "Jonathan Kemp",
+				"email": "kempdogg@gmail.com",
+				"url": "http://jonkemp.com/"
+		},
+		"license": "MIT",
+		"bugs": {
+				"url": "https://github.com/jonkemp/flat-util/issues"
+		},
+		"homepage": "https://github.com/jonkemp/flat-util#readme",
+		"devDependencies": {
+				"babel-eslint": "^10.0.3",
+				"eslint": "^6.8.0",
+				"mocha": "^7.0.0",
+				"umd-util": "^1.0.0"
+		}
 }
