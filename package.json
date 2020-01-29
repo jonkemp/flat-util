@@ -6,7 +6,6 @@
 	"scripts": {
 		"build": "node build",
 		"prepublishOnly": "npm run build",
-		"version": "npm run build",
 		"lint": "eslint . --max-warnings 0",
 		"lint:fix": "eslint . --fix --max-warnings 0",
 		"test": "mocha"
@@ -37,7 +36,7 @@
 	"devDependencies": {
 		"babel-eslint": "^10.0.3",
 		"eslint": "^6.8.0",
-		"mocha": "^7.0.0",
-		"umd-util": "^1.0.0"
+		"mocha": "^7.0.1",
+		"umd-util": "^1.0.1"
 	}
 }
