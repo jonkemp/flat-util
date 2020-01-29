@@ -1,3 +1,3 @@
 const umdify = require('umd-util');
 
-umdify('umd', 'index.js');
+umdify('flatten', 'umd', 'index.js', true);
