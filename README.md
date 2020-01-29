@@ -46,7 +46,7 @@ flatten([1, 2, [3, 4, [5, 6]]]);
 
 #### input
 
-Type: `array`
+Type: `array`  
 Default: `none`
 
 The array to flatten.
