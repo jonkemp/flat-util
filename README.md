@@ -22,26 +22,27 @@ $ npm install flat-util
 Or [unpkg](https://unpkg.com/flat-util/)
 
 ```
-<script src="https://unpkg.com/flat-util@^1.0.0" />
+<script src="https://unpkg.com/browse/flat-util@1.0.4/umd/index.js" />
 ```
 
+Check out the unit tests on [CodePen](https://codepen.io/jonkemp/full/YzPBmwz).
 
 ## Usage
 
 ```js
-const flat = require('flat-util');
+const flatten = require('flat-util');
 
-flat([1, 2, [3, 4]]);
+flatten([1, 2, [3, 4]]);
 //=> [1, 2, 3, 4]
 
-flat([1, 2, [3, 4, [5, 6]]]);
+flatten([1, 2, [3, 4, [5, 6]]]);
 //=> [1, 2, 3, 4, 5, 6]
 ```
 
 
 ## API
 
-### flat(input)
+### flatten(input)
 
 #### input
 
