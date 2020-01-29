@@ -1,6 +1,6 @@
 {
 	"name": "flat-util",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Flatten a nested array.",
 	"main": "index.js",
 	"scripts": {
