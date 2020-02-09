@@ -22,7 +22,7 @@ $ npm install flat-util
 Or [unpkg](https://unpkg.com/flat-util/)
 
 ```
-<script src="https://unpkg.com/browse/flat-util@1.0.4/umd/index.js" />
+<script src="https://unpkg.com/browse/flat-util@1.0.5/umd/index.js" />
 ```
 
 Check out the unit tests on [CodePen](https://codepen.io/jonkemp/full/YzPBmwz).
