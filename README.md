@@ -39,7 +39,8 @@ flatten([1, 2, [3, 4, [5, 6]]]);
 //=> [1, 2, 3, 4, 5, 6]
 ```
 
-| **Like us a lot?** Help others know why you like us! **Review this package on [pkgreview.dev](https://pkgreview.dev/npm/flat-util)** | ➡   | [![Review us on pkgreview.dev]
+| **Like us a lot?** Help others know why you like us! **Review this package on [pkgreview.dev](https://pkgreview.dev/npm/flat-util)** | ➡   | [![Review us on pkgreview.dev](https://i.ibb.co/McjVMfb/pkgreview-dev.jpg)](https://pkgreview.dev/npm/flat-util) |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------- |
 
 ## API
 
