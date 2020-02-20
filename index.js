@@ -1,4 +1,4 @@
-const isArrayLike = require('./is-array-like');
+const isArrayLike = require('./lib/is-array-like');
 
 const isArguments = obj => toString.call(obj) === '[object Arguments]';
 
