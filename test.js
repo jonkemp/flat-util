@@ -50,7 +50,7 @@ describe('flat', () => {
 	});
 
 	it('works on an arguments object', () => {
-		const result = (function(){ return flat(arguments); }(1, [2], [3, [[[4]]]]));
+		const result = (function(...args) { return flat(args); }(1, [2], [3, [[[4]]]]));
 
 		assert.deepEqual(result, [1, 2, 3, 4]);
 	});
