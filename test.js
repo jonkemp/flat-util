@@ -98,5 +98,3 @@ describe('flatten', () => {
 		assert.deepEqual(flatten(x, true), x[0]);
 	});
 });
-
-mocha.run();
