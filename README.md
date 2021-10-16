@@ -1,4 +1,4 @@
-# flat-util [![Build Status](https://travis-ci.com/jonkemp/flat-util.svg?branch=master)](https://travis-ci.com/jonkemp/flat-util)
+# flat-util ![Build Status](https://github.com/jonkemp/flat-util/actions/workflows/main.yml/badge.svg?branch=master)]
 
 > Flatten a nested array.
 
