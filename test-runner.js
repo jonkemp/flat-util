@@ -10,7 +10,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
   const server = createServer({ root: __dirname });
   server.listen(8080);
 
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({headless: true});
   const page = await browser.newPage();
 
   // Handle console messages from the page
