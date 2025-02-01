@@ -2,7 +2,6 @@
 	"name": "flat-util",
 	"version": "1.1.10",
 	"description": "Flatten a nested array.",
-	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"build": "rollup --config",
